@@ -8,8 +8,8 @@ import Blogpage from "./Components/Blogpage/Blogpage";
 function Main() {
   return (
     <Switch>
-      <Route exact path='/' component={Homepage} />
-      <Route exact path='/blogpage' component={Blogpage} />
+      <Route exact path='/blog/' component={Homepage} />
+      <Route exact path='/blog//blogpage' component={Blogpage} />
     </Switch>
   );
 }
