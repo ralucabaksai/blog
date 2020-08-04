@@ -6,10 +6,10 @@ function Header() {
   return (
     <Navbar bg='dark' variant='dark'>
       <Nav className='mr-auto'>
-        <Link className='nav-link' to='/'>
+        <Link className='nav-link' to='/blog/'>
           Home
         </Link>
-        <Link className='nav-link' to='/blogpage'>
+        <Link className='nav-link' to='/blog/blogpage'>
           Blogpage
         </Link>
       </Nav>
