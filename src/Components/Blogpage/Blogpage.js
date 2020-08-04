@@ -5,7 +5,7 @@ import PaginationHelper from "./PaginationHelper";
 class Blogpage extends Component {
   state = { posts: [], currentPage: 1, postsPerPage: 5 };
   componentDidMount() {
-    fetch("https://rest.vedinas.ro/posts?")
+    fetch("https://jsonplaceholder.typicode.com/posts?")
       .then((response) => response.json())
       .then((posts) => {
         this.setState({ posts });
